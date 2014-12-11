@@ -1,0 +1,682 @@
+/* Reset CSS http://meyerweb.com/eric/tools/css/reset/*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+        margin:
+            0;
+        padding:
+            0;
+        border:
+            0;
+        outline:
+            0;
+        font-size:
+            100%;
+        vertical-align:
+            baseline;
+        background:
+            transparent;
+}
+body
+{
+        line-height:
+            100%;
+}
+ol, ul
+{
+        list-style:
+            none;
+}
+blockquote, q
+{
+        quotes:
+            none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after
+{
+        content:
+            '';
+        content:
+            none;
+}
+
+/* remember to define focus styles! */
+:focus
+{
+        outline:
+            0;
+}
+
+/* remember to highlight inserts somehow! */
+ins
+{
+        text-decoration:
+            none;
+}
+del
+{
+        text-decoration:
+            line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+        border-collapse:
+            collapse;
+        border-spacing:
+            0;
+}
+/* Reset CSS */
+
+#body
+{
+    clear:
+        both;
+}
+#header-left
+{
+    float:
+        left;
+    margin-top:
+        1em;
+    text-align:
+        left;
+}
+#header-right
+{
+    float:
+        left;
+    margin-top:
+        1em;
+    text-align:
+        right;
+    font-size:
+        1.1em;
+}
+#header-right p
+{
+    margin-top:
+        1.4em;
+}
+#scroll {
+    overflow:
+        hidden;
+    width:
+        100%;
+}
+#scroll div div
+{
+    margin-bottom:
+        1.5%;
+}
+#scrollinks
+{
+    clear:
+        both;
+    margin-bottom:
+        6%;
+}
+.ui-tabs-hide
+{
+    display:
+        none !important;
+}
+#wrapper
+{
+    margin:
+        1em auto 1em auto;
+}
+#wrapper .first
+{
+    margin-left:
+        0;
+}
+#wrapper .last
+{
+    margin-right:
+        0;
+}
+#scrollinks li
+{
+    margin:
+        0 6px;
+}
+#scrollinks
+{
+    font-family:
+        'Cantarell', sans-serif;
+    font-size:
+        17.3px;
+    font-weight:
+        normal;
+    letter-spacing:
+        1px;
+    word-spacing:
+        0;
+    line-height:
+        25px;
+    text-transform:
+        uppercase;
+}
+a:link, a:visited, a:active
+{
+    text-decoration:
+        none;
+}
+a:hover
+{
+    text-decoration:
+        underline;
+}
+.links a.active
+{
+    text-decoration:
+        underline;
+}
+body
+{
+    font-family:
+        'Nobile', sans-serif;
+    line-height:
+        150%;
+}
+span#site-name
+{
+    font-family:
+        'Nobile', sans-serif;
+    font-size:
+        5.5em;
+    font-weight:
+        bold;
+    line-height:
+        1em;
+    text-transform:
+        uppercase;
+}
+h1
+{
+    font-family:
+        'Nobile', sans-serif;
+    font-size:
+        300%;
+    font-style:
+        italic;
+    font-weight:
+        normal;
+    line-height:
+        150%;
+    margin-bottom:
+        0.6em;
+    text-transform:
+        lowercase;
+}
+h2
+{
+    font-family:
+        'Cantarell', sans-serif;
+    font-size:
+        110%;
+    font-weight:
+        normal;
+    letter-spacing:
+        0.05em;
+    text-transform:
+        uppercase;
+    margin-bottom:
+        3.3%;
+}
+h3
+{
+    font-family:
+        'Nobile', sans-serif;
+    font-size:
+        115%;
+    font-style:
+        italic;
+    letter-spacing:
+        0.04em;
+}
+h4
+{
+    font-family:
+        'Nobile', sans-serif;
+    font-size:
+        100%;
+    font-style:
+        italic;
+    letter-spacing:
+        0.03em;
+    margin-right:
+        6.5%;
+    text-align:
+        right;
+}
+p
+{
+    font-size:
+        100%;
+    line-height:
+        150%;
+    margin-bottom:
+        5%;
+}
+li
+{
+    display:
+        inline;
+    list-style:
+        none outside none;
+    margin:
+        0 0.8%;
+}
+input, textarea
+{
+    font-family:
+        'Nobile', sans-serif;
+    clear:
+        both;
+    width:
+        98%;
+    padding:
+        0.5em 0.2em;
+    font-size:
+        100%;
+}
+input[type="submit"], input[type="button"]
+{
+    width:
+        auto;
+    padding:
+        0.4em;
+}
+select
+{
+    clear:
+        both;
+    display:
+        block;
+    padding:
+        0.5em 0.2em;
+    font-size:
+        100%;
+}
+form div
+{
+    margin:
+        2% 0;
+}
+label
+{
+    font-family:
+        'Nobile', sans-serif;
+    font-size:
+        120%;
+    padding:
+        1.2% 0;
+}
+dt
+{
+    width:
+        16%;
+    margin:
+        0 0 0 2%;
+    font-weight:
+        bold;
+}
+dd
+{
+    margin:
+        -2% 0 4% 16%;
+}
+.message
+{
+    display:
+        inline-block;
+    margin:
+        0 0 1em 0;
+    padding:
+        0.2em;
+    background-color:
+        #DD9E85;
+    color:
+        #FFFFFF;
+    line-height:
+        1em;
+    text-shadow:
+        1px 1px 1px #9FAA99;
+    font-family:
+        'Cantarell', sans-serif;
+    font-weight:
+        normal;
+    font-size:
+        1.1em;
+}
+.grid
+{
+    margin:
+        1em 0;
+    clear:
+        both;
+}
+.portfolio
+{
+    background-repeat:
+        no-repeat;
+    display:
+        block;
+}
+.portfolio-text
+{
+    display:
+        inline-block;
+    font-size:
+        2.5em;
+    font-family:
+        'Nobile', sans-serif;
+    background-color:
+        #FFFFFF;
+    color:
+        #000000;
+    line-height:
+        1em;
+    text-transform:
+        uppercase;
+    letter-spacing:
+        0.15em;
+}
+.description
+{
+    margin:
+        1em 5px;
+}
+.description-left
+{
+    float:
+        left;
+}
+.description-right
+{
+    float:
+        left;
+}
+.clearfix:after
+{
+    content:
+        ".";
+    display:
+        block;
+    height:
+        0;
+    clear:
+        both;
+    visibility:
+        hidden;
+}
+.grid a:hover
+{
+    text-decoration:
+        none;
+}
+#scroll h3
+{
+    margin:
+        0;
+}
+#ommig img
+{
+    float:
+        left;
+    margin:
+        0 1.5em 1em 0;
+}
+#ommig dl
+{
+    overflow:
+        auto;
+}
+img.portrait
+{
+    border:
+        1px solid #777777;
+    float:
+        right;
+    margin:
+        0.5em;
+    padding:
+        10px;
+}
+#header
+{
+    position:
+        absolute;
+    top:
+        1em;
+}
+#body
+{
+    padding-top:
+        13.4em;
+}
+
+@media screen
+{
+    a:link, a:visited, a:active
+    {
+        color:
+            #777;
+    }
+    body
+    {
+        background:
+            url('/img/bg.gif') repeat-x;
+        background-image:
+            -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                color-stop(0.75, rgb(255,255,255)),
+                color-stop(1, rgb(220,220,220))
+            );
+        background-image:
+            -moz-linear-gradient(
+                center bottom,
+                rgb(255,255,255) 75%,
+                rgb(220,220,220) 100%
+            );
+    }
+    h2
+    {
+        color:
+            #777;
+    }
+    #wrapper
+    {
+        width:
+            800px;
+    }
+    #head, .links
+    {
+        text-shadow:
+            1px 1px 1px #FFFFFF;
+    }
+    #header-left
+    {
+        width:
+            600px;
+    }
+    #header-right
+    {
+        width:
+            200px;
+    }
+    #page
+    {
+        background:
+            url('/img/logo.png') no-repeat center 3em;
+    }
+    #scroll div
+    {
+        width:
+            3200px;
+    }
+    #scroll div div
+    {
+        float:
+            left;
+        width:
+            800px;
+    }
+    .description
+    {
+        display:
+            none;
+    }
+    .description-left
+    {
+        width:
+            400px;
+    }
+    .description-right
+    {
+        width:
+            370px;
+        margin-left:
+            20px;
+    }
+    .portfolio
+    {
+        height:
+            100px;
+    }
+    .portfolio-text
+    {
+        text-shadow:
+            1px 1px 1px #9FAA99;
+        margin:
+            5px 0 0 5px;
+        padding:
+            0.2em;
+    }
+    .tdfirst
+    {
+        width:
+            240px;
+    }
+    .tdlast
+    {
+        width:
+            320px;
+    }
+}
+
+@media print
+{
+     *
+     {
+         background-color:
+             white !important;
+         background-image:
+             none !important;
+         color:
+             black !important;
+         overflow:
+             visible !important;
+     }
+     body {
+        font-size:
+            11pt;
+     }
+    a:link, a:visited
+    {
+        background:
+            transparent;
+	font-weight:
+            bold;
+	text-decoration:
+            underline;
+        color:
+            #781351;
+    }
+    a.portfolio
+    {
+        background:
+            transparent;
+	text-decoration:
+            none;
+	font-weight:
+            normal;
+        color:
+            #000000;
+    }
+    #head
+    {
+        width:
+            100%;
+    }
+    #header-left
+    {
+        width: 75%;
+    }
+    #header-right
+    {
+        width: 25%;
+    }
+    #wrapper
+   {
+        padding:
+            0 2%;
+    }
+    #scroll div
+    {
+        width:
+            100%;
+    }
+    #scroll div div
+    {
+        width:
+            100%;
+    }
+    #scroll div div table
+    {
+        width:
+            100%;
+    }
+    .description-left
+    {
+        width:
+            50%;
+    }
+    .description-right
+    {
+        width:
+            46.25%;
+        margin-left:
+            2.5%;
+    }
+    .noprint
+    {
+        display:
+            none;
+    }
+    .tdfirst
+    {
+        width:
+            30%;
+    }
+    .tdlast
+    {
+        width:
+            40%;
+    }
+}

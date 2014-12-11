@@ -1,0 +1,9 @@
+baseurl = "http://wallsin.com"
+languageCode = "sv-se"
+title = "JOACHIM WALLSIN"
+canonifyurls = false
+[params]
+  description = "Jag är Joachim Wallsin och jag är webbutvecklare i Göteborg."
+  keywords = "om mig, joachim wallsin, ky akademien, joachim, hem, wallsin, nyqvist, webbutvecklare, jnyqvist, akademien, mölndal, portfolio"
+  title404 = "404"
+  titleHome = "Hem"

@@ -1,0 +1,7 @@
+<ul>
+  {{ $currentNode := . }}
+  <li class="first"><a href="/" {{if eq .Url "/"}}class="active"{{end}}>Hem</a></li>
+  {{ range .Site.Menus.main }}
+  <li><a href="{{.Url}}" {{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}>{{.Name}}</a></li>
+  {{ end }}
+</ul>
