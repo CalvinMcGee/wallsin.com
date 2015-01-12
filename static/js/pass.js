@@ -1,5 +1,6 @@
 jQuery(function($){
 	$('#pass').submit(function(e){
+		e.preventDefault();
 		var identifier = $('#identifier').val();
 		var password = $('#password').val();
 		var salt = '58756879c05c68dfac9866712fad6b63f8146f337a69afe7dd238f33649463';
@@ -11,7 +12,6 @@ jQuery(function($){
 		identifier.val();
 		password.val();
 
-		e.preventDefault();
 		return;
 	})
 })
