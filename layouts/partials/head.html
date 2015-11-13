@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="{{with .Params.metakeywords}}{{.}}{{else}}{{.Site.Params.keywords}}{{end}}" />
 <meta name="description" content="{{with .Description}}{{.}}{{else}}{{.Site.Params.description}}{{end}}" />
-<title>{{ .Site.Title }} - {{if eq .Url "404.html"}}{{.Site.Params.title404}}{{else if eq .Url "/"}}{{.Site.Params.titleHome}}{{else}}{{.Title}}{{end}}</title>
+<title>{{ .Site.Title }} - {{if eq .URL "404.html"}}{{.Site.Params.title404}}{{else if eq .URL "/"}}{{.Site.Params.titleHome}}{{else}}{{.Title}}{{end}}</title>
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="/css/style.css" />
 <link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css" />
