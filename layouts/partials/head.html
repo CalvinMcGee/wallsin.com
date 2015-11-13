@@ -3,5 +3,6 @@
 <meta name="description" content="{{with .Description}}{{.}}{{else}}{{.Site.Params.description}}{{end}}" />
 <title>{{ .Site.Title }} - {{if eq .URL "404.html"}}{{.Site.Params.title404}}{{else if eq .URL "/"}}{{.Site.Params.titleHome}}{{else}}{{.Title}}{{end}}</title>
 <link rel="shortcut icon" href="/favicon.ico" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 <link rel="stylesheet" type="text/css" href="/css/style.css" />
 <link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css" />
