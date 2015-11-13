@@ -1,4 +1,4 @@
-baseurl = "http://wallsin.com"
+baseurl = "https://wallsin.com"
 languageCode = "sv-se"
 title = "JOACHIM WALLSIN"
 canonifyurls = false
