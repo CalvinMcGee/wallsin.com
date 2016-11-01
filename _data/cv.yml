@@ -1,0 +1,25 @@
+work:
+  - title: Systemadministratör, webbutvecklare
+    work: Lesley Cosmetics AB, Mary Kay
+    place: Mölndal
+    start: 2012
+    end: current
+    description: Arbetar som webbutvecklare och systemadministratör. Arbetar mest med interna webbsystem där jag använder Drupal, CakePHP, jQuery och utvecklar mot API hos bl.a. Bizwizard och Mandrill. Har även tagit fram responsiva e-postmallar för företagets utskick via Bizwizard. Sköter drift av interna Linuxservrar, samt utför allmän IT-support för användare. Började i februari.
+  - title: Frontendutvecklare
+    work: Wallmander & Co
+    place: Göteborg
+    start: 2011
+    end: 2011
+    description: Arbetade som frontendutvecklare, (X)HTML, CSS, JS och även lite Wordpress. Arbetade mellan augusti och november.
+  - title: SEO tekniker
+    work: Be Better Online
+    place: Göteborg
+    start: 2011
+    end: 2011
+    description: Började i juli efter avslutad praktik på samma ställe. Huvudsyssla var länkbygge åt kunder. Slutade i augusti.
+  - title: Praktik
+    work: Be Better Online
+    place: Göteborg
+    start: 2010
+    end: 2011
+    description: Praktik från december till juli. Företagets huvudinriktning är sökmotoroptimering, men jag utvecklade bland annat deras kundcenter i Zend, samt en nyinstallation av en Joomlasida med e-handel. Gjorde även ett par nyinstallationer av små sidor i Wordpress.

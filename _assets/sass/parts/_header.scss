@@ -1,0 +1,65 @@
+header {
+  background-image: url('../img/code.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  position: relative;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.nav {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__list-item {
+    display: inline;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 1rem;
+
+    &:active,
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+.banner {
+  padding: 8rem 0;
+
+  strong {
+   text-transform: uppercase;
+ } 
+}
+
+.social {
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  padding: 1rem 0;
+
+  &__list {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &-item {
+      display: inline;
+    }
+
+    &-link {
+      padding: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /cv/
+---
+
+<main>
+  <header>
+    <h1>CV</h1>
+  </header>
+  <section class="row">
+    <div class="column">
+      <h2>Arbetslivserfarenhet</h2>
+      {% for work in site.data.cv.work %}
+        <div>{{ work.title }}</div>
+        <div>{{ work.work }}</div>
+        <div>{{ work.place }}</div>
+        <div>
+          {{ work.start }}
+          {% if work.end == 'current' %}
+            - <span class="current">Nuvarande</span>
+          {% elsif work.start != work.end %}
+            - {{ work.end }}
+          {% endif %}
+        </div>
+        <div>{{ work.description }}</div>
+      {% endfor %}
+    </div>
+  </section>
+</main>
