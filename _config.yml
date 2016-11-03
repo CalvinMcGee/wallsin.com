@@ -19,6 +19,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Webbutvecklare
 baseurl: ""
 url: "https://wallsin.com" # the base hostname & protocol for your site
+facebook: https://www.facebook.com/joachim.wallsin
+linkedin: https://se.linkedin.com/in/joachim-wallsin-6b47a810
+github: https://github.com/calvinmcgee
 
 # Build settings
 markdown: kramdown
