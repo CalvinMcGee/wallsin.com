@@ -51,11 +51,19 @@ nav {
 }
 
 .banner {
+  color: $white;
+  font-size: 1.5rem;
   padding: 8rem 0;
 
-  strong {
-   text-transform: uppercase;
- } 
+  &__header {
+    color: $white;
+    font-size: 4rem;
+
+    &--strong {
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .social {
