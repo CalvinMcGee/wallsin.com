@@ -1,33 +1,35 @@
 <header>
-  <nav>
-    <ul class="nav">
-      {% for link in site.menu %}
-      <li class="nav__list-item">
-        {% if page.url == link.url %}
-          <a href="{{ link.url | prepend: site.baseurl }}" class="nav__link active">
-            <span class="nav__icon">
-              {{ link.icon }}
-            </span>
-            {{ link.title }}
-          </a>
-        {% else %}
-          <a href="{{ link.url | prepend: site.baseurl }}" class="nav__link">
-            <span class="nav__icon">
-              {{ link.icon }}
-            </span>
-            {{ link.title }}
-          </a>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
-  <div class="row">
-    <div class="column small-centered medium-8">
-      <div class="banner text-center">
-        <h1>Jag är <strong>{{ site.title }}</strong></h1>
-        <p>Jag är en passionerad <strong>Webbutvecklare</strong> som skapar modern <strong>Web</strong><br />
-          Lär dig veta mer <stron>om mig</strong></p>
+  <div class="header__container">
+    <nav>
+      <ul class="nav">
+        {% for link in site.menu %}
+        <li class="nav__list-item">
+          {% if page.url == link.url %}
+            <a href="{{ link.url | prepend: site.baseurl }}" class="nav__link active">
+              <span class="nav__icon">
+                {{ link.icon }}
+              </span>
+              {{ link.title }}
+            </a>
+          {% else %}
+            <a href="{{ link.url | prepend: site.baseurl }}" class="nav__link">
+              <span class="nav__icon">
+                {{ link.icon }}
+              </span>
+              {{ link.title }}
+            </a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="column small-centered medium-9">
+        <div class="banner text-center">
+          <h1 class="banner__header">Jag är <strong class="banner__header--strong">{{ site.title }}</strong></h1>
+          <p>Jag är en passionerad <strong>Webbutvecklare</strong> som skapar modern <strong>Web</strong><br />
+            Lär dig veta mer <stron>om mig</strong></p>
+        </div>
       </div>
     </div>
   </div>
@@ -43,5 +45,6 @@
         <a href="" class="social__list-link"><i class="fa fa-2x fa-github"></i></a>
       </li>
     </ul>
+    </div>
   </div>
 </header>
