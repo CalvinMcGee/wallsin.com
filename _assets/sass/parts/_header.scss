@@ -36,8 +36,15 @@ nav {
 
     &:active,
     &:hover,
-    &:focus {
+    &:focus,
+    &.active {
       color: $menu-link-color-hover;
+    }
+
+    
+    &:active,
+    &:hover,
+    &:focus {
       border-bottom: solid 1px $menu-link-color;
     }
   }
