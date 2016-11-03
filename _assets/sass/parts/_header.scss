@@ -1,3 +1,6 @@
+$menu-link-color: $white !default;
+$menu-link-color-hover: #ed5565 !default;
+
 header {
   background-image: url('../img/code.jpg');
   background-repeat: no-repeat;
@@ -9,7 +12,6 @@ header {
 nav {
   position: relative;
   text-align: center;
-  padding-top: 1rem;
 }
 
 .nav {
@@ -23,14 +25,20 @@ nav {
   }
 
   &__link {
+    border-bottom: solid 1px transparent;
+    display: inline-block;
+    color: $menu-link-color;
+    font-weight: $global-weight-bold;
+    letter-spacing: 2.5px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 1rem;
 
     &:active,
     &:hover,
     &:focus {
-      text-decoration: underline;
+      color: $menu-link-color-hover;
+      border-bottom: solid 1px $menu-link-color;
     }
   }
 }
