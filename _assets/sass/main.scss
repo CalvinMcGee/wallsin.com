@@ -12,3 +12,7 @@
 @include foundation-global-styles;
 @include foundation-grid;
 @include foundation-typography;
+
+.wrapper {
+  background: $white;
+}
