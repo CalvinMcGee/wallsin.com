@@ -1,0 +1,62 @@
+.about {
+  background-image: url('../img/desk.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  color: $white;
+
+  &__container {
+    background-color: rgba($black, 0.7);
+  }
+
+  &__column {
+    padding: 3rem (rem-calc(30px)/2);
+
+    &--background {
+      background-color: rgba($black, 0.5);
+    }
+
+    &-inner {
+      margin: 0 auto;
+    }
+  }
+
+  &__image {
+    border-radius: 100%;
+    border: 5px solid $medium-gray;
+    box-shadow: 0 0 0 5px rgba($black, 0.2);
+    margin-bottom: 2rem;
+  }
+
+  &__header {
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: $global-weight-bold;
+  }
+
+  &__subheader {
+    color: inherit;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+}
+
+@media #{$medium-up} {
+  .about {
+    &__container {
+      display: table;
+      width: 100%;
+    }
+    &__column {
+      display: table-cell;
+      vertical-align: middle;
+
+      &-inner {
+        max-width: rem-calc(1200) / 2;
+      }
+    }
+  }
+}
