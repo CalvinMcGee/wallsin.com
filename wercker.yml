@@ -1,0 +1,10 @@
+box: ruby
+
+build-dev:
+  steps:
+    # Install Jekyll and other dependencies
+    - bundle-install
+
+    - script:
+      name: Jekyll build
+      code: bundle exec jekyll build
