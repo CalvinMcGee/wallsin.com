@@ -6,11 +6,15 @@ build-dev:
     - bundle-install
 
     - script:
-      name: Jekyll build
+      name: Jekyll dev build
       code: bundle exec jekyll build --config _config.yml,_dev.yml
+
+    - script:
+      name: Jekyll production build
+      code: bundle exec jekyll build --config _config.yml
 
 deploy-dev:
   steps:
     - lukevivier/gh-pages@0.2.1:
       token: $GIT_TOKEN
-      basedir: _site
+      basedir: _site_dev
