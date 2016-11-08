@@ -8,3 +8,9 @@ build-dev:
     - script:
       name: Jekyll build
       code: bundle exec jekyll build
+
+deploy-dev:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+      token: $GIT_TOKEN
+      basedir: _site
