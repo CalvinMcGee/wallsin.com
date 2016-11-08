@@ -52,4 +52,4 @@ menu:
   - title: Portfolio
     url: "/portfolio"
 
-exclude: ["Gemfile", "Gemfile.lock", "nbproject"]
+exclude: ["Gemfile", "Gemfile.lock", "wercker.yml", "nbproject"]
