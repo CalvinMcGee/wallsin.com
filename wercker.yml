@@ -7,7 +7,7 @@ build-dev:
 
     - script:
       name: Jekyll build
-      code: bundle exec jekyll build
+      code: bundle exec jekyll build --config _config.yml,_dev.yml
 
 deploy-dev:
   steps:
