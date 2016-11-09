@@ -14,6 +14,7 @@ header {
 }
 
 nav {
+  padding: (rem-calc(30px)/2) (rem-calc(30px)/2) 0 (rem-calc(30px)/2);
   position: relative;
   text-align: center;
 }
@@ -32,11 +33,13 @@ nav {
     border-bottom: solid 1px transparent;
     display: inline-block;
     color: $menu-link-color;
+    font-size: 0.8rem;
     font-weight: $global-weight-bold;
     letter-spacing: 2.5px;
+    line-height: 1;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
 
     &:active,
     &:hover,
@@ -56,16 +59,40 @@ nav {
 
 .banner {
   color: $white;
-  font-size: 1.5rem;
-  padding: 8rem 0;
+  font-size: 1rem;
+  padding: 2rem 0;
 
   &__header {
     color: $white;
-    font-size: 4rem;
+    font-size: 2rem;
 
     &--strong {
       font-weight: 800;
       text-transform: uppercase;
+    }
+  }
+}
+
+
+@media #{$medium-up} {
+  nav {
+    padding-top: 0;
+  }
+
+  .nav {
+    &__link {
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 1rem;
+    }
+  }
+
+  .banner {
+    font-size: 1.5rem;
+    padding: 8rem 0;
+
+    &__header {
+      font-size: 4rem;
     }
   }
 }
