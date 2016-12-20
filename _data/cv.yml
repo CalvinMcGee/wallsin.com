@@ -1,25 +1,57 @@
-work:
+Arbete:
   - title: Systemadministratör, webbutvecklare
     work: Lesley Cosmetics AB, Mary Kay
     place: Mölndal
-    start: 2012
-    end: current
+    start: Februari 2012
+    end: Nuvarande
     description: Arbetar som webbutvecklare och systemadministratör. Arbetar mest med interna webbsystem där jag använder Drupal, CakePHP, jQuery och utvecklar mot API hos bl.a. Bizwizard och Mandrill. Har även tagit fram responsiva e-postmallar för företagets utskick via Bizwizard. Sköter drift av interna Linuxservrar, samt utför allmän IT-support för användare. Började i februari.
   - title: Frontendutvecklare
     work: Wallmander & Co
     place: Göteborg
-    start: 2011
-    end: 2011
+    start: Augusti 2011
+    end: November 2011
     description: Arbetade som frontendutvecklare, (X)HTML, CSS, JS och även lite Wordpress. Arbetade mellan augusti och november.
   - title: SEO tekniker
     work: Be Better Online
     place: Göteborg
-    start: 2011
-    end: 2011
+    start: Juli 2011
+    end: Augusti 2011
     description: Började i juli efter avslutad praktik på samma ställe. Huvudsyssla var länkbygge åt kunder. Slutade i augusti.
   - title: Praktik
     work: Be Better Online
     place: Göteborg
-    start: 2010
-    end: 2011
+    start: December 2010
+    end: Juli 2011
     description: Praktik från december till juli. Företagets huvudinriktning är sökmotoroptimering, men jag utvecklade bland annat deras kundcenter i Zend, samt en nyinstallation av en Joomlasida med e-handel. Gjorde även ett par nyinstallationer av små sidor i Wordpress.
+Utbildning:
+  - title: Webbutvecklare 2 år
+    work: KY-Akademien
+    place: Göteborg
+    start: Augusti 2009
+    end: Juli 2011
+    description: KY-utbildning i webbutveckling. Examen juli 2011.
+  - title: Civilingenjör Kemiteknik (180/200)
+    work: Chalmers tekniska högskola
+    place: Göteborg
+    start: Augusti 2005
+    end: Oktober 2008
+    description: Avbrutit studierna 20081001. Har läst alla kurser på utbildningens första tre år med inriktningen Process under 6:e terminen. Har skrivit kandidatarbete vid institutionen för Energiteknik, men ej avlagt kandidatexamen. Har klarat kurser totalt värda 133.5 högskolepoäng.
+  - title: Studentexamen
+    work: Elof Lindälvs gymnasium
+    place: Kungsbacka
+    start: Augusti 2002
+    end: Juli 2005
+    description: Naturvetenskapliga linjen med inriktning natur.
+Föreningsuppdrag:
+  - title: Webmaster
+    work: Chalmers Sångkör
+    place: Göteborg
+    start: 2009
+    end: 2014
+    description: Webmaster för Chalmers Sångkörs hemsida. Skötte drift och adminstration av den gamla Drupal 6 hemsidan. Var en del av gruppen som utvecklade deras nya hemsida i Drupal 7. Utvecklade även ett biljettbokningssystem i CakePHP 2. Skapade och skötte e-postlista och e-postmallar för de som önskade information om körens uppsjungningar. E-postlistan driftades på Mailchimp.
+  - title: IT-ansvarig
+    work: KARG
+    place: Göteborg
+    start: 2007
+    end: 2008
+    description: Jag var IT-Ansvarig för KARG, Kemis arbetsmarknadsgrupp. Karg ordnar företagspresentationer, studiebesök och KARM, som är kemisektionernas arbetsmarknadsdag. På Karm kommer 10-15 företag till kemi på företagsmässa. Jag skapade en enkel hemsida och skötte IT-support under föreläsningar och under KARM.
