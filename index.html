@@ -21,15 +21,23 @@ layout: default
   </div>
 </section>
 <section id="cv">
-  <div class="row cv">
-    <div class="column small-12 medium-2 medium-offset-1">
-      <h2 class="cv__section">Utbildning</h2>
-    </div>
-    <div class="column small-12 medium-8">
-      <p class="cv__date">Augusti 2009 - Juli 2011</p>
-      <h3 class="cv__place">KY-Akademin</h3>
-      <h4 class="cv__title">Webbutvecklare</h4>
-      <p>KY-utbildning i webbutveckling.</p>
-    </div>
+  <div class="cv">
+    {% for section in site.data.cv %}
+      <div class="row cv__section">
+        <div class="column small-12 medium-2 medium-offset-1">
+          <h2 class="cv__section-title">{{ section[0] }}</h2>
+        </div>
+        <div class="column small-12 medium-8">
+          {% for item in section[1] %}
+            <div class="cv__entry">
+              <p class="cv__date">{{ item.start }} - {{ item.end }}</p>
+              <h3 class="cv__place">{{ item.work }}</h3>
+              <h4 class="cv__title">{{ item.title }}</h4>
+              <p>{{ item.description }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </section>
