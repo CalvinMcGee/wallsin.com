@@ -5,11 +5,13 @@
 @import "settings";
 @import "foundation/foundation";
 @import "font-awesome/font-awesome";
+@import "parts/typography";
 @import "parts/header";
 @import "parts/footer";
 @import "parts/social";
 @import "parts/about";
 @import "parts/cv";
+@import "parts/portfolio";
 
 @include foundation-global-styles;
 @include foundation-grid;
