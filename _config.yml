@@ -28,6 +28,7 @@ markdown: kramdown
 
 gems:
   - jekyll-assets
+  - jekyll-redirect-from
   - jekyll-sitemap
 
 assets:
