@@ -30,7 +30,7 @@ layout: default
         <div class="column small-12 medium-8">
           {% for item in section[1] %}
             <div class="cv__entry">
-              <p class="cv__date">{{ item.start }} - {{ item.end }}</p>
+              <p class="cv__date">{{ item.start }}{% if item.end %} - {{ item.end }}{% endif %}</p>
               <h3 class="cv__place">{{ item.work }}</h3>
               <h4 class="cv__title">{{ item.title }}</h4>
               <p>{{ item.description }}</p>
