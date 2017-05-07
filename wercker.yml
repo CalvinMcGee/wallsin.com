@@ -22,3 +22,20 @@ deploy-dev:
     - lukevivier/gh-pages@0.2.1:
       token: $GIT_TOKEN
       basedir: _site_dev
+
+deploy-stage:
+  steps:
+    - install-packages:
+        packages: libpython-dev
+    - edgecaseadmin/install-aws-cli:
+        key: $AWS_ACCESS_KEY_ID
+        secret: $AWS_SECRET_ACCESS_KEY
+        region: $AWS_REGION
+    - script:
+        name: AWS Sync
+        code: |-
+          aws s3 sync --exclude '*.*' --include '*.css' --content-type 'text/css' --cache-control 'max-age=604800' --size-only ${WERCKER_SOURCE_DIR}/_site_stage/ $AWS_BUCKET_URL
+          aws s3 sync --exclude '*.*' --include '*.js' --content-type 'application/javascript' --cache-control 'max-age=604800' --size-only ${WERCKER_SOURCE_DIR}/_site_stage/ $AWS_BUCKET_URL
+          aws s3 sync --exclude '*.*' --include '*.png' --include '*.jpg' --include '*.ico' --expires 'Sat, 20 Nov 2020 18:46:39 GMT' --cache-control 'max-age=604800' --size-only ${WERCKER_SOURCE_DIR}/_site_stage/ $AWS_BUCKET_URL
+          aws s3 sync --exclude '*.*' --include '*.html' --content-type 'text/html' --cache-control 'max-age=7200, must-revalidate' --size-only ${WERCKER_SOURCE_DIR}/_site_stage/ $AWS_BUCKET_URL
+          aws s3 sync --delete --size-only ${WERCKER_SOURCE_DIR}/_site_stage/ $AWS_BUCKET_URL
