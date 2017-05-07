@@ -46,10 +46,10 @@ menu:
   - title: Hem
     url: "/"
   - title: Om mig
-    url: "/om-mig"
-  - title: CV
-    url: "/cv"
+    url: "#om"
+  - title: Curriculum vitae
+    url: "#cv"
   - title: Portfolio
-    url: "/portfolio"
+    url: "#portfolio"
 
 exclude: ["Gemfile", "Gemfile.lock", "wercker.yml", "nbproject"]
