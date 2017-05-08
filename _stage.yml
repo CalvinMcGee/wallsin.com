@@ -1,3 +1,0 @@
-baseurl: ""
-url: "http://beta.wallsin.com" # the base hostname & protocol for your site
-destination: _site_stage
