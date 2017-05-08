@@ -2,9 +2,9 @@
 <html lang="{{ site.language }}">
   <meta charset="utf-8">
   <title>Skickar vidare...</title>
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{page.redirect_to}}">
-  <meta http-equiv="refresh" content="0; url={{ site.url }}{{ site.baseurl }}{{page.redirect_to}}">
+  <link rel="canonical" href="{{page.redirect.to}}">
+  <meta http-equiv="refresh" content="0; url={{page.redirect.to}}">
   <h1>Skickar vidare…</h1>
-  <a href="{{ site.url }}{{ site.baseurl }}{{page.redirect_to}}">Klicka här om du inte skickas vidare.</a>
-  <script>location="{{ site.url }}{{ site.baseurl }}{{page.redirect_to}}"</script>
+  <a href="{{page.redirect.to}}">Klicka här om du inte skickas vidare.</a>
+  <script>location="{{page.redirect.to}}"</script>
 </html>
