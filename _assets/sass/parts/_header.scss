@@ -2,7 +2,7 @@ $menu-link-color: $white !default;
 $menu-link-color-hover: #ed5565 !default;
 
 header {
-  background-image: url('../img/code.jpg');
+  background-image: url(asset_path("code.jpg"));
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
