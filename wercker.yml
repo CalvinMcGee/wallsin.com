@@ -1,5 +1,14 @@
 box: ruby
 
+build-dev:
+  steps:
+    # Install Jekyll and other dependencies
+    - bundle-install
+
+    - script:
+      name: Jekyll dev build
+      code: bundle exec jekyll build --config _config.yml,_dev.yml
+
 build:
   steps:
     # Install Jekyll and other dependencies
@@ -8,10 +17,6 @@ build:
     - script:
       name: Jekyll production build
       code: bundle exec jekyll build --config _config.yml
-
-    - script:
-      name: Jekyll dev build
-      code: bundle exec jekyll build --config _config.yml,_dev.yml
 
 deploy-dev:
   steps:
