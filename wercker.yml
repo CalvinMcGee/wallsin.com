@@ -6,12 +6,12 @@ build:
     - bundle-install
 
     - script:
-      name: Jekyll dev build
-      code: bundle exec jekyll build --config _config.yml,_dev.yml
-
-    - script:
       name: Jekyll production build
       code: bundle exec jekyll build --config _config.yml
+
+    - script:
+      name: Jekyll dev build
+      code: bundle exec jekyll build --config _config.yml,_dev.yml
 
 deploy-dev:
   steps:
