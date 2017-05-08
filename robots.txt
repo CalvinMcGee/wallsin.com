@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://calvinmcgee.github.io/wallsin.com/wallsin.com/sitemap.xml
