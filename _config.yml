@@ -38,6 +38,7 @@ assets:
   prefix: "/assets"
   digest: true
   sources:
+    - _assets/img
     - _assets/sass
     - _assets/js
 
