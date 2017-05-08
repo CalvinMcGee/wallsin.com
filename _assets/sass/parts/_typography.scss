@@ -9,4 +9,9 @@
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
+
+  &--dark {
+    color: $white;
+    border-color: #666666;
+  }
 }
