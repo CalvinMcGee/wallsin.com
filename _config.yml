@@ -52,5 +52,7 @@ menu:
     url: "#cv"
   - title: Portfolio
     url: "#portfolio"
+  - title: Kontakt
+    url: "#kontakt"
 
 exclude: ["Gemfile", "Gemfile.lock", "wercker.yml", "nbproject"]
