@@ -1,0 +1,10 @@
+.image-rounded {
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+
+  &--border {
+    border: 5px solid $medium-gray;
+    box-shadow: 0 0 0 5px rgba($black, 0.2);
+  }
+}
