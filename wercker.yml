@@ -1,4 +1,16 @@
-box: ruby
+box:
+  id: ruby:latest
+  ports:
+    - "8080"
+  cmd: /bin/bash
+dev:
+  steps:
+    # Install Jekyll and other dependencies
+    - bundle-install
+
+    - internal/watch:
+      code: bundle exec jekyll serve --config _config.yml,_dev.yml --host 0.0.0.0 --port 8080 -w
+      reload: true
 
 build-dev:
   steps:
