@@ -31,3 +31,5 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" src="./assets/sass/main.scss"></style>

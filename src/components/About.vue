@@ -4,7 +4,7 @@
       <div class="about__container">
        <div class="medium-6 about__column">
          <div class="about__column-inner text-center">
-           <img src="/assets/joachim_edit-fcf6809e934bf38bd2667d450c64f28f0be59d86c48676701cd58fb948e074a2.jpg" class="small-7 medium-6 large-4 image-rounded image-rounded--border" alt="Joachim Wallsin" width="400" height="400">
+           <img src="/img/joachim_edit.jpg" class="small-7 medium-6 large-4 image-rounded image-rounded--border" alt="Joachim Wallsin" width="400" height="400">
            <h2 class="about__header">Joachim Wallsin</h2>
            <h3 class="about__subheader">Webbutvecklare</h3>
          </div>

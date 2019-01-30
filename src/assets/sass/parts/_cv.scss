@@ -1,0 +1,40 @@
+.cv {
+  padding: 3rem 0 2rem 0;
+
+  &__section-title {
+    border-bottom: solid 3px #11ABB0;
+    display: inline-block;
+    font-size: rem-calc(18);
+    font-weight: $global-weight-bold;
+    padding-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+  }
+
+  &__entry {
+    padding-bottom: 3rem;
+  }
+
+  &__date {
+    background-color: #ED5565;
+    color: $white;
+    display: inline-block;
+    font-size: rem-calc(14);
+    font-weight: $global-weight-bold;
+    padding: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  &__place {
+    color: #666666;
+    font-size: rem-calc(25);
+    font-weight: $global-weight-bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: rem-calc(20);
+  }
+}

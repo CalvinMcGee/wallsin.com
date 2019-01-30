@@ -13,7 +13,7 @@
     <div class="row">
       <div class="column">
         <div class="text-center">
-          <img src="/assets/joachim_edit-fcf6809e934bf38bd2667d450c64f28f0be59d86c48676701cd58fb948e074a2.jpg" class="small-4 medium-3 large-2 image-rounded image-rounded--border" />
+          <img src="/img/joachim_edit.jpg" class="small-4 medium-3 large-2 image-rounded image-rounded--border" />
         </div>
       </div>
     </div>
