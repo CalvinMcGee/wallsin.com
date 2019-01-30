@@ -6,7 +6,10 @@
       :key="link.name">
 
       <li class="nav__list-item">
-        <a :href="link.link" class="nav__link active">
+        <a
+          :href="link.link"
+          class="nav__link"
+          v-bind:class="{active: link.link == '/'}">
           <span class="nav__icon">
           </span>
           {{ link.name }}
