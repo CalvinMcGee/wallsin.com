@@ -1,0 +1,16 @@
+footer {
+  background: $black;
+  color: $dark-gray;
+  padding: 0 0 2rem 0;
+}
+.footer__separator {
+  color: $white;
+  background-color: $dark-gray;
+  border-radius: 100%;
+  display: inline-block;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  position: relative;
+}
