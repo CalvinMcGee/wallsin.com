@@ -2,10 +2,11 @@
   <nav>
     <ul
       class="nav"
-      v-for="link in links">
+      v-for="link in links"
+      :key="link.name">
 
       <li class="nav__list-item">
-        <a href="{{ link.link }}" class="nav__link active">
+        <a :href="link.link" class="nav__link active">
           <span class="nav__icon">
           </span>
           {{ link.name }}
