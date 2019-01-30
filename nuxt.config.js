@@ -48,6 +48,7 @@ module.exports = {
   */
   build: {
     extractCSS: true,
+    publicPath: 'assets/',
     /*
     ** You can extend webpack config here
     */
