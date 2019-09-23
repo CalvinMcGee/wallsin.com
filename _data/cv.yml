@@ -1,10 +1,17 @@
 Arbete:
   - title: Backendutvecklare
+    work: Forsman & Bodenfors Inhouse AB
+    start: November 2018
+    end: nuvarande
+    description: Arbetar som backendutvecklare och devops. Arbetar mest med utveckling av API:er som konsumeras av sidor på volvocars.com/se. I det arbetet så ingår även att driftsätta applikationer på Kubernetes kluster.
+  - title: Backendutvecklare
     work: Marton International AB, Hemverket
     place: Göteborg
     start: Augusti 2017
-    end: Nuvarande
-    description: Arbetar som Backend utvecklare med fokus på internt mäklarsystem. Mäklarsystemet hanterar objekt, köpare och säljare, budgivning samt publicerar annonser till diverse plattformar bland annat Hemnet, Blocket Bostad och Finn.no.
+    end: November 2018
+    description: |
+       Arbetade som Backend utvecklare med fokus på internt mäklarsystem. Mäklarsystemet hanterar objekt, köpare och säljare, budgivning samt publicerar annonser till diverse plattformar bland annat Hemnet, Blocket Bostad och Finn.no.
+       Var även SCRUM master och arbetsledde till viss del övriga utvecklare.
   - title: Systemadministratör, webbutvecklare
     work: Lesley Cosmetics AB, Mary Kay
     place: Mölndal
