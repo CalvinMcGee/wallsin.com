@@ -1,9 +1,16 @@
 Arbete:
+  - title: Konsult
+    work: Consid AB
+    start: Maj 2022
+    end: nuvarande
+    description: |
+      Sitter ute på uppdrag hos kund.
+      Nuvarande uppdragsgivare: Awardit CLS AB. Arbetar som backendutvecklare på LAMP stack.
   - title: Backendutvecklare
     work: Forsman & Bodenfors Inhouse AB
     start: November 2018
-    end: nuvarande
-    description: Arbetar som backendutvecklare och devops. Arbetar mest med utveckling av API:er som konsumeras av sidor på volvocars.com/se. I det arbetet så ingår även att driftsätta applikationer på Kubernetes kluster.
+    end: Maj 2022
+    description: Arbetade som backendutvecklare och devops. Arbetade mest med utveckling av API:er som konsumeras av sidor på volvocars.com/se. I det arbetet så ingick även att driftsätta applikationer på Kubernetes kluster.
   - title: Backendutvecklare
     work: Marton International AB, Hemverket
     place: Göteborg
